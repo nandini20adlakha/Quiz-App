@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="start-btn">
+    <button>Start</button>
+  </div>
+  <div class="instruction">
+    <header>
+      <p>Some Rules of this quiz</p>
+    </header>
+    <div class="rules">
+      <p>1.You will have only <span>15 seconds </span>to answer each questions</p>
+      <p>2.Once you selected any option then it would consider your final answer</p>
+      <p>3.Once you selected any option it can't be undone</p>
+      <p>4.For each correct answer you will be rewarded with points</p>
+      <p>5.The total score will be revealed at the end</p>
+    </div>
+    <div class="instruction-btn">
+      <button>Exit Quiz</button>
+      <button>Start Quiz</button>
+    </div>
+  </div>
+  
+  <div class="wrapper">
+    <header>
+      <h4>Questions</h4>
+      <div class="Timer">
+        <p>Time Left</p>
+        <p>15</p>
+      </div>
+    </header>
+    <div class="timer-progress">
+      <div class="inner"></div>
+    </div>
+    <div class="question-container">
+      What does HTML stand for ?
+    </div>
+    <div class="option-container">
+    </div>
+    <div class="status">
+      <p class="question-num">
+        <span class="current-question">1</span>
+        <span>of</span>
+        <span class="total-question">8 </span>
+        <span>Questions</span>
+      </p>
+      <div class="btn">
+        <button>Next</button>
+      </div>
+    </div>
+  </div>
+  <div class="result-card">
+    <header>
+      <p>Result</p>
+    </header>
+    <div class="image">
+      <div class="user-score">
+        <p class="value">30</p>
+        <p>Your Score</p>
+      </div>
+    </div>
+    <div class="score">
+      <div class="total-score">
+        <p class="value">50</p>
+        <p>Total Score</p>
+      </div>
+      <div class="attempted">
+        <p class="value">27</p>
+        <p>Attempted</p>
+      </div>
+      <div class="unattempted">
+        <p class="value">23</p>
+        <p>Unattempted</p>
+      </div>
+      <div class="wrong">
+        <p class="value">10</p>
+        <p>Wrong</p>
+      </div>
+    </div>
+    <div class="score-btn">
+      <button>Replay Quiz</button>
+      <button>Exit Quiz</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
